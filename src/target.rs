@@ -1,5 +1,5 @@
+use validators::models::Host;
 use validators::prelude::*;
-use validators_prelude::Host;
 
 #[derive(Debug, Clone, PartialEq, Eq, Hash, Validator)]
 #[validator(host(port(Disallow)))]
